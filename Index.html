@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sci Fi Registration Form</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Join Our Ranks</h1>
+    </div>
+    <div>
+      <img
+        src="img/spaceship-svg-alien-2/spaceship-svg-alien-2-original.png"
+        alt=""
+        width="100px"
+        class="img"
+      />
+    </div>
+    <div class="container">
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="name" placeholder="Name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            class="username"
+            placeholder="Username"
+          />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" class="email" placeholder="Email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="text"
+            id="password"
+            class="password"
+            placeholder="Password"
+          />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            class="confirm-password"
+            placeholder="Confirm Password"
+          />
+          <small>Error message</small>
+        </div>
+        <button class="submit">Grant Access</button>
+      </form>
+    </div>
+    <div class="type-container">
+      <span
+        class="txt-type"
+        data-wait="3000"
+        data-words='["Earthlings Wanted"]'
+      ></span>
+    </div>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
